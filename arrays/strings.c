@@ -15,3 +15,13 @@ printf("What happens if I try to print s[3]?\n");
 }
 
 //Thats actually how printf works, it will print the string until it finds a null terminator, which is the character with ASCII value 0. In this case, s[3] is the null terminator, so printf will stop printing at that point.
+
+void example(void)
+{
+    string words[3];
+    words[0] = "one";
+    words[1] = "two";
+    words[2] = "three";
+
+    printf("Characters of %s is: %c %c %c", words[0], words[0][0], words[0][1], words[0][2]);
+}
