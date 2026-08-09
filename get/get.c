@@ -8,5 +8,4 @@ int main(void)
     printf("n: ");
     scanf("%i", &n);
     //get_string
-    char *s = malloc();
 }

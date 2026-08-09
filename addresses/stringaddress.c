@@ -10,7 +10,7 @@ printf("%p\n", &s[1]); //prints the address of the char s[1], i.e. 0x561748004
 
 // without the CS50 library:
 char *q = "hiaaa!";
-printf("%s\n", q); //q is the address of the first char in the string
+printf("%s\n", q); //q is the address of the first char in the string. This will print "hiaaa!"
 printf("%c\n", *(q + 1));
 printf("%c\n", *(q + 2)); // print the char inside the address of s + 2
 

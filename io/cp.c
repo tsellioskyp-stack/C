@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-typedef unsigned char BYTE; //A char in C is a single byte, but whether it is signed or unsigned depends on the compiler.
+typedef unsigned int BYTE; //A char in C is a single byte, but whether it is signed or unsigned depends on the compiler.
 
 int main(int argc, char *argv[])
 {
