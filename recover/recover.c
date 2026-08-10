@@ -37,8 +37,8 @@ int main(int argc, char *argv[])
                 fclose(output);
             }
 
-            char filename[9];
-            sprintf(filename, "%04i.jpg", file_counter);
+            char filename[8];
+            sprintf(filename, "%03i.jpg", file_counter);
 
             output = fopen(filename, "wb");
 
